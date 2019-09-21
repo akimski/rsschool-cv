@@ -22,16 +22,18 @@
 >Now I am intensively studying JS, independently on books, resources, videos. I am taking an online course from Coursera (Specialization - Development of interfaces: layout and JavaScript from a partner of the MOSCOW PHYSICAL-TECHNICAL INSTITUTE and Yandex). Later I plan to study the React framework and other technologies related to frontend development.
 
 ## Skills
-* HTML5, CSS3, JS, PHP, MySQL
-* Bootstrap 3, Bootstrap 4
+* HTML, CSS, JS, PHP, MySQL
+* Bootstrap
 * Git
+* VSCode
 * WP, Joomla, OpenCart, ModX, etc.
 * Photoshop
 
 ## Courses
 * htmlacademy
-* Coursera
 * Yandex SHRI
+* Coursera
+* RSSchool JavaScript/Front-end
 
 ## Code examples
 1. https://
