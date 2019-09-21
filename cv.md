@@ -36,8 +36,61 @@
 * RSSchool JavaScript/Front-end
 
 ## Code examples
-1. https://
-2. https://
+Eat, sleep, code, repeat example `code`
+
+HTML
+``` html
+<div class="container text-center">
+  <h1><span class="js_rotating text">EAT, SLEEP, CODE, REPEAT</></h1>
+  <p><a href="https://vk.com/qlikovsky" target="_blank">❤</a></p>
+</div>
+```
+
+CSS
+``` css
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  background: #edeef0;
+}
+.container {
+  height: 100%;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 70px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: #000 0 0 5px;
+}
+p {
+  font-size: 200px;
+  text-shadow: #000 0 0 5px;
+}
+p a {  
+  color: red;
+  cursor: pointer;
+}
+p a:hover {
+  text-decoration: none;
+  color: #ff0000b4;
+}
+```
+
+JS
+``` javascript
+$(".js_rotating").Morphext({
+  animation: "tada",
+  separator: ",",
+  speed: 2500,
+  complete: function () {
+  }
+});
+var height = $(window).height();
+$(".container").css("height",height);
+```
 
 ## Work experience
 * Freelance
