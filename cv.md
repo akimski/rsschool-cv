@@ -1,12 +1,17 @@
-# Junior Frontend Developer
+# Akim Kulikouski
 
-## Akim Kulikouski
+## Junior Frontend Developer
+
+## Personal info
+* Age: 26
+* Location: Belarus, Minsk
+* Marital status: Married, one kid
 
 ## Contact info
-* Location: Belarus, Minsk
 * Phone: +375 (33) 679-46-58
 * Email: [qlikovsky@gmail.com](qlikovsky@gmail.com)
-* Github: [github.com/qlikovsky/](qlikovsky)
+* Github: [qlikovsky](https://github.com/qlikovsky)
+* Telegram: [kimaken](https://t.me/kimaken)
 
 ## Profile
 >For 1.5 years I was engaged in web development, I searched for orders myself, mainly these were small sites for companies and individual entrepreneurs, business card sites, etc. I made some sites clean or using ready-made templates (with their subsequent modification to the customer) and using various CMS.
