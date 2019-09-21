@@ -94,11 +94,11 @@ $(".container").css("height",height);
 
 ## Work experience
 * Freelance
-* Web-studio SEOTEAM
-* Web-studio Webbox
+* Web studio SEOTEAM - Web Developer
+* Web studio Webbox - Web Developer
 
 ## Education
-* BSUIR - Electronic Security Systems
+* BSUIR - Electronic Security Systems - Design Engineer
 
 ## English level
-* А1+
+* А2
