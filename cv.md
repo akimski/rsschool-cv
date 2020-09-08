@@ -3,7 +3,7 @@
 ## Junior Frontend Developer
 
 ## Personal info
-* Age: 26
+* Age: 27
 * Location: Belarus, Minsk
 * Marital status: Married, one kid
 
@@ -22,18 +22,18 @@
 >Now I am intensively studying JS, independently on books, resources, videos. I am taking an online course from Coursera (Specialization - Development of interfaces: layout and JavaScript from a partner of the MOSCOW PHYSICAL-TECHNICAL INSTITUTE and Yandex). Later I plan to study the React framework and other technologies related to frontend development.
 
 ## Skills
-* HTML, CSS, JS, PHP, MySQL
+* HTML, CSS, JS
 * Bootstrap
 * Git
 * VSCode
-* WP, Joomla, OpenCart, ModX, etc.
-* Photoshop
+* WP, OpenCart, ModX, etc.
+* Figma
 
 ## Courses
 * htmlacademy
 * Yandex SHRI
 * Coursera
-* RSSchool JavaScript/Front-end
+* RSSchool
 
 ## Code examples
 Eat, sleep, code, repeat example `code`
@@ -101,4 +101,4 @@ $(".container").css("height",height);
 * BSUIR - Electronic Security Systems - Design Engineer
 
 ## English level
-* А2
+* А1
