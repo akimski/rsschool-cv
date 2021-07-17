@@ -1,1 +1,1 @@
-# https://akimski.github.io/rsschool-cv/cv
+# https://spsq.github.io/rsschool-cv/cv
