@@ -1,1 +1,2 @@
-# https://akimski.github.io/rsschool-cv/cv
+# Link in my CV
+# https://spsq.github.io/rsschool-cv/cv
