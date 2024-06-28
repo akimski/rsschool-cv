@@ -1,2 +1,2 @@
 Link in my CV
-# https://akimski.github.io/rsschool-cv/cv
+# https://kimaken.github.io/rsschool-cv/cv
