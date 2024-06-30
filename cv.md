@@ -32,60 +32,142 @@
 * RSSchool
 
 ## Code examples
-Eat, sleep, code, repeat example `code`
-
 HTML
 ``` html
-<div class="container text-center">
-  <h1><span class="js_rotating text">EAT, SLEEP, CODE, REPEAT</></h1>
-  <p><a href="https://vk.com/qlikovsky" target="_blank">❤</a></p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HelloToAll</title>
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<p class="helloText">
+				<span>👨‍💻</span>
+				<span>Hello to all</span>
+			</p>
+			<div class="about-me">
+				<div class="mainText">I am</div>
+				<div class="typedText"></div>
+			</div>
+			<footer class="social">
+				<i class="fa-brands fa-github"></i>
+				<i class="fa-brands fa-linkedin"></i>
+				<i class="fa-brands fa-telegram"></i>
+			</footer>
+		</div>
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<script src="core.js"></script>
+	</body>
+</html>
 ```
 
 CSS
 ``` css
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-  background: #edeef0;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
-.container {
-  height: 100%;
+
+.wrapper {
+	width: 1170px;
+	max-width: 100%;
 }
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  top: 45%;
-  transform: translateY(-50%);
-  font-size: 70px;
-  font-weight: 900;
-  color: #fff;
-  text-shadow: #000 0 0 5px;
+
+.helloText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 100px;
 }
-p {
-  font-size: 200px;
-  text-shadow: #000 0 0 5px;
+
+.about-me {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
 }
-p a {  
-  color: red;
-  cursor: pointer;
+
+.mainText {
+	color: white;
+	font-size: 55px;
+	padding: 15px;
+	font-family: sans-serif;
 }
-p a:hover {
-  text-decoration: none;
-  color: #ff0000b4;
+
+.typedText {
+	border-right: 4px solid rgb(62, 216, 255);
+	font-size: 70px;
+	font-family: sans-serif;
+	color: rgb(62, 216, 255);
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 50px;
+}
+
+.social i {
+	cursor: pointer;
+	margin: 150px auto;
+}
+
+@media (max-width: 1400px) {
+	body {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 990px) {
+	body {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 770px) {
+	body {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		font-size: 10px;
+	}
 }
 ```
 
 JS
 ``` javascript
-$(".js_rotating").Morphext({
-  animation: "tada",
-  separator: ",",
-  speed: 2500,
-  complete: function () {
-  }
+let typing = new Typed('.typedText', {
+	strings: ['Akim Kulikouski', 'FullStack Developer'],
+	typeSpeed: 150,
+	backSpeed: 75,
+	loop: true,
 });
-var height = $(window).height();
-$(".container").css("height",height);
 ```
 
 ## Work experience
@@ -96,5 +178,6 @@ $(".container").css("height",height);
 ## Education
 * BSUIR - Electronic Security Systems - Design Engineer
 
-## English level
-* А1
+## Language level
+* English - А1
+* Polish - A1
