@@ -706,3 +706,11 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.celestial {
+  background: linear-gradient(to right, #c33764, #1d2671);
+}
+
+.relay {
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+}
