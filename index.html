@@ -15,6 +15,7 @@
 			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
 			rel="stylesheet"
 		>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
 	</head>
 	<body>
 		<header class="header">
@@ -210,14 +211,19 @@
 					<div class="about__content-main">
 						<h3 class="about__content-title">JS</h3>
 						<div class="about__content-details">
-							
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">let</span> typing = <span class="hljs-keyword" style="font-weight: 700;">new</span> Typed(<span class="hljs-string" style="color: rgb(136, 0, 0);">'.typedText'</span>, {
-	strings: [<span class="hljs-string" style="color: rgb(136, 0, 0);">'Akim Kulikouski'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'FullStack Developer'</span>],
-	typeSpeed: <span class="hljs-number" style="color: rgb(136, 0, 0);">150</span>,
-	backSpeed: <span class="hljs-number" style="color: rgb(136, 0, 0);">75</span>,
-	loop: <span class="hljs-literal" style="color: rgb(120, 169, 96);">true</span>,
-});</pre>
-							
+							<pre>
+								<code class="javascript">
+								export function setupCounter(element) {
+									let counter = 0
+									const setCounter = (count) => {
+										counter = count
+										element.innerHTML = `count is ${counter}`
+									}
+									element.addEventListener('click', () => setCounter(counter + 1))
+									setCounter(0)
+								}
+								</code>
+							</pre>
 						</div>
 					</div>
 				</div>
@@ -424,10 +430,15 @@
 						</p>
 					</div>
 				</div>
-				<!-- <div class="main-footer__lower">&copy; Copyright 2024.</div> -->
+				<!-- <div class="main-footer__lower">Made with <span style="color: #e25555;">&hearts;</span> in Switzerland</div> -->
+				 <div class="main-footer__lower">
+					<p class="footer-heart">Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> by <a href="https://github.com/kimaken">Kimaken</a> in 2024
+					</p>
+				 </div>
 			</div>
 		</footer>
 		<script src="./index.js"></script>
-		<script src="./codeexample.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</body>
 </html>
