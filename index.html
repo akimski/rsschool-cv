@@ -215,11 +215,11 @@
 								<code class="javascript">
 								export function setupCounter(element) {
 									let counter = 0
-									const setCounter = (count) => {
+									const setCounter = (count) =&gt; {
 										counter = count
 										element.innerHTML = `count is ${counter}`
 									}
-									element.addEventListener('click', () => setCounter(counter + 1))
+									element.addEventListener('click', () =&gt; setCounter(counter + 1))
 									setCounter(0)
 								}
 								</code>
